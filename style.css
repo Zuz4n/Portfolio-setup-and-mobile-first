@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --v1: #ff6B00;
+  --v2: #1c1a19;
+  --v3: rgb(255, 255, 255);  
+}
+
+.titulo {
+  width: 327px;
+  height: 124px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: var(--v1);
+  font-family: 'Crete Round', serif;
+}
+
+.hello {
+  background-color: var(--v2);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 590px;
+  left: 0px;
+  top: 92px;
+}
+
+.subtitulo {
+  color: var(--v3);
+  width: 327px;
+  height: 27px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.parrafo {
+  color: var(--v3);
+  width: 327px;
+  height: 123px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hamburguer {
+  color: var(--v1);
+  position: absolute;
+  left: 16.67%;
+  right: 16.67%;
+  top: 50%;
+  bottom: 50%;
+}
+
+.image1 {
+  position: absolute;
+  width: 423px;
+  height: 92px;
+  left: 0px;
+  top: 0px;
+  background-color: var(--v2);
+}
+
+.socialmedia { 
+  order: 3;
+}
+
+.ilustration {
+  position: absolute;
+  transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
+  width: 350px;
+  height: 280px;
+  left: 230px;
+  top: 600px; 
+  background-image: var(--v2);
+}
