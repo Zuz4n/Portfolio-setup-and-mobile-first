@@ -5,7 +5,7 @@
 :root {
   --v1: #ff6b00;
   --v2: #1c1a19;
-  --v3: rgb(255, 255, 255);  
+  --v3: rgb(255, 255, 255);
 }
 
 .titulo {
@@ -30,7 +30,7 @@
   position: absolute;
   width: 375px;
   height: 590px;
-  left: 0px;
+  left: 10px;
   top: 92px;
 }
 
@@ -67,12 +67,12 @@
   position: absolute;
   width: 423px;
   height: 92px;
-  left: 0px;
-  top: 0px;
+  left: 0.1px;
+  top: 0.1px;
   background-color: var(--v2);
 }
 
-.socialmedia { 
+.socialmedia {
   order: 3;
 }
 
@@ -82,7 +82,7 @@
   width: 200px;
   height: 600px;
   left: 223px;
-  top: 300px; 
+  top: 300px;
   background-image: var(--v2);
   transform: scaleX(+1);
 }
