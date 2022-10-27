@@ -78,11 +78,10 @@
 
 .ilustration {
   position: absolute;
-  transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
+  transform: matrix(0.96, 0.27, 0.96, 0, 0);
   width: 200px;
   height: 600px;
   left: 223px;
   top: 300px;
   background-image: var(--v2);
-  transform: scaleX(+1);
 }
