@@ -14,10 +14,11 @@
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
-  line-height: 64px;
+  line-height: 60px;
   letter-spacing: 0.37px;
   color: var(--v1);
   font-family: 'Crete Round', serif;
+  
 }
 
 .hello {
@@ -79,9 +80,10 @@
 .ilustration {
   position: absolute;
   transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
-  width: 350px;
-  height: 280px;
-  left: 230px;
-  top: 600px; 
+  width: 200px;
+  height: 600px;
+  left: 223px;
+  top: 300px; 
   background-image: var(--v2);
+  transform: scaleX(+1);
 }
