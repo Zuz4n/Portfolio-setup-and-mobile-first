@@ -270,16 +270,79 @@ body {
   right: 24px;
 }
 
+.skills {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: #FFFFFF;
+  list-style: none;
+}
+
 .bigskill {
   font-family: 'Roboto', sans-serif;
   font-size: 32px;
-  line-height: 44px;
-  color: #FFFFFF;
 }
 
 .smallskill {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+}
+
+.pfinal {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 32px;
   line-height: 44px;
+  text-align: center;
+  color: #172B4D;
+}
+
+.fill {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #979493;
+}
+
+.fillbar {
+ color: #dbd8d7;
+ height: 1px;
+ left: 0px;
+ right: 0px;
+ bottom: 0px;
+}
+
+.comments {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #fbf8f7;
+  Width: 327px;
+  Height: 114px;
+}
+
+.boton4 {
+  width: 131px;
+  height: 48px;
+  background: #FF6B00;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
   color: #FFFFFF;
+  letter-spacing: 0.03em;
+}
+
+.final_icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
