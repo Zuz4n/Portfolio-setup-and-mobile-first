@@ -112,12 +112,12 @@ body {
 .vector {
   border: 1px solid #212121;
   color: var(--v2);
-  Left: 24px;
+  left: 24px;
   right: 24px;
 }
 
 .yoga {
-  Left: 24px;
+  left: 24px;
   padding-top: 104px;
   padding-left: 15px;
   padding-right: 30px;
@@ -131,7 +131,7 @@ body {
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #091E42;
+  color: #091e42;
   padding-left: 15px;
   padding-right: 30px;
 }
@@ -141,20 +141,19 @@ body {
   padding-left: 15px;
   padding-right: 30 px;
   font-size: 16px;
-  color: #091E42;
+  color: #091e42;
 }
 
 .list_programs {
   display: flex;
-  align-content:space-between;
-  padding-left: 5px;
+  align-content: space-between;
   flex-direction: row;
   padding: 10px 12px;
 }
 
 .boton1 {
   height: 48px;
-  background: #FF6B00;
+  background: #ff6b00;
   margin-left: 15px;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
@@ -162,8 +161,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
-
+  color: #fff;
 }
 
 .projects {
@@ -181,7 +179,7 @@ body {
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #FFFFFF;
+  color: #fff;
   padding-left: 15px;
 }
 
@@ -189,39 +187,28 @@ body {
   font-family: 'Inter', sans-serif;
   padding-left: 15px;
   padding-right: 30 px;
-  font-size: 16px;  
-  color: #FFFFFF;
+  font-size: 16px;
+  color: #fff;
 }
 
 .list_programs2 {
   display: flex;
-  align-content:space-between;
-  padding-left: 5px;
+  align-content: space-between;
   flex-direction: row;
   padding: 10px 12px;
 }
 
 .boton2 {
-    width: 327px;
-    height: 48px;
-    background: #FF6B00;
-    font-family: 'Inter', sans-serif;
-    font-size: 17px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-  }
-   
-.page1 {
-  
+  width: 327px;
+  height: 48px;
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
   display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin-top: 0%;
-  justify-content: center;
-  padding-bottom: 100px;    
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
 }
 
 .page3 {
@@ -235,57 +222,52 @@ body {
   background-repeat: no-repeat;
   background-position-y: bottom;
   background-position-x: right;
-  padding-bottom: 100px;    
+  padding-bottom: 100px;
 }
 
 .about {
-  line-height: 60px;
-  color: var(--v1);
   font-family: 'Crete Round', serif;
   padding-left: 15px;
   padding-top: 40px;
   line-height: 88px;
   letter-spacing: 0.37px;
-  color: #FF6B00;
+  color: #ff6b00;
   font-size: 72px;
   font-weight: 400;
-
 }
 
 .parrafoAM {
   font-family: 'Inter', sans-serif;
   padding-left: 15px;
   padding-right: 30 px;
-  font-size: 16px;  
-  color: #FFFFFF;
-  padding-left: 15px;
-  padding-right: 30px;
+  font-size: 16px;
+  color: #fff;
 }
 
 .boton3 {
   width: 161px;
   height: 48px;
-  background: #FF6B00;
+  background: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
   line-height: 24px;
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   letter-spacing: 0.03em;
 }
 
 .vector2 {
-  color: #FFFFFF;
+  color: #fff;
   color: var(--v2);
-  Left: 24px;
+  left: 24px;
   right: 24px;
 }
 
 .skills {
   text-align: center;
-  color:#FFFFFF;
+  color: #fff;
 }
 
 .bigskill {
@@ -311,7 +293,7 @@ body {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
   padding-left: 15px;
   padding-right: 30px;
 }
@@ -328,16 +310,16 @@ body {
 }
 
 .fillbar {
- color: #dbd8d7;
- height: 1px;
- left: 0px;
- right: 0px;
- bottom: 0px;
+  color: #dbd8d7;
+  height: 1px;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .comments {
   background: #fbf8f7;
-  Height: 114px;
+  height: 114px;
   padding-left: 24px;
   padding-right: 24px;
   border: #fbf8f7;
@@ -346,14 +328,14 @@ body {
 .boton4 {
   width: 131px;
   height: 48px;
-  background: #FF6B00;
+  background: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
   line-height: 24px;
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   letter-spacing: 0.03em;
 }
 
@@ -362,7 +344,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
- 
+
 .page4 {
   display: flex;
   flex-direction: column;
@@ -375,10 +357,9 @@ body {
 .cuadrollenado {
   display: flex;
   flex-direction: column;
-  justify-content:space-between;  
-
+  justify-content: space-between;
 }
 
 .fa-sharp {
-  color:#FF6B00
+  color: #ff6b00;
 }
