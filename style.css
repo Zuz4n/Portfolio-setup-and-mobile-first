@@ -44,7 +44,7 @@ body {
   font-size: 56px;
   line-height: 60px;
   color: var(--v1);
-  font-family: var(--v6)'Crete Round', serif;
+  font-family: var(--v6) 'Crete Round', serif;
   padding-left: 15px;
   margin-bottom: 0%;
   padding-top: 40px;
@@ -62,7 +62,6 @@ body {
   background-position-y: bottom;
   background-position-x: right;
   padding-bottom: 100px;
-  margin: 0%;
 }
 
 .hamburguer {
@@ -106,7 +105,7 @@ body {
   font-style: normal;
   font-size: 40px;
   color: var(--v2);
-  font-family: var(--v6)
+  font-family: var(--v6);
   padding-left: 15px;
   margin-bottom: 0%;
 }
@@ -126,7 +125,7 @@ body {
 }
 
 .multi {
-  font-family: var(--v6)
+  font-family: var(--v6);
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -139,7 +138,7 @@ body {
 }
 
 .parrafo1 {
-  font-family: var(--v5)
+  font-family: var(--v5);
   padding-left: 15px;
   padding-right: 30 px;
   font-size: 16px;
@@ -157,7 +156,7 @@ body {
   height: 48px;
   background: #ff6b00;
   margin-left: 15px;
-  font-family: var(--v5)
+  font-family: var(--v5);
   font-size: 17px;
   display: flex;
   align-items: center;
@@ -165,27 +164,26 @@ body {
   letter-spacing: 0.03em;
   color: #fff;
   text-decoration: none;
-  Width: 124px;
-  Height: 48px;
-  Top: 161px;
-  Left: 100px;
-  Padding: 12px;
-  Gap: 10px;
+  width: 124px;
+  top: 161px;
+  left: 100px;
+  padding: 12px;
+  gap: 10px;
 }
 
 .b1:hover {
   color: #ff6b00;
   border-color: #ff6b00;
-  background: #fff5E1;
+  background: #fff5e1;
   border: 1px solid #f55800;
 }
 
-b1:disabled {
+.b1:disabled {
   background: #f4f1f0;
   color: #5b5957;
 }
 
-b1:active {
+.b1:active {
   color: #f4f1f0;
   background: #e05304;
 }
@@ -193,7 +191,7 @@ b1:active {
 .b2 {
   height: 48px;
   background: #ff6b00;
-  font-family: var(--v5)
+  font-family: var(--v5);
   font-size: 17px;
   display: flex;
   align-items: center;
@@ -201,23 +199,23 @@ b1:active {
   letter-spacing: 0.03em;
   color: #fff;
   text-decoration: none;
-  Top: 161px;
-  Padding: 12px;
+  top: 161px;
+  padding: 12px;
 }
 
 .b2:hover {
   color: #ff6b00;
   border-color: #ff6b00;
-  background: #fff5E1;
+  background: #fff5e1;
   border: 1px solid #f55800;
 }
 
-b2:disabled {
+.b2:disabled {
   background: #f4f1f0;
   color: #5b5957;
 }
 
-b2:active {
+.b2:active {
   color: #f4f1f0;
   background: #e05304;
 }
@@ -226,7 +224,7 @@ b2:active {
   height: 48px;
   background: #ff6b00;
   margin-left: 15px;
-  font-family: var(--v5)
+  font-family: var(--v5);
   font-size: 17px;
   display: flex;
   align-items: center;
@@ -234,27 +232,26 @@ b2:active {
   letter-spacing: 0.03em;
   color: #fff;
   text-decoration: none;
-  Width: 161px;
-  Height: 48px;
-  Top: 395px;
-  Left: 100px;
-  Padding: 12px;
-  Gap: 10px;
+  width: 161px;
+  top: 395px;
+  left: 100px;
+  padding: 12px;
+  gap: 10px;
 }
 
 .b3:hover {
   color: #ff6b00;
   border-color: #ff6b00;
-  background: #fff5E1;
+  background: #fff5e1;
   border: 1px solid #f55800;
 }
 
-b3:disabled {
+.b3:disabled {
   background: #f4f1f0;
   color: #5b5957;
 }
 
-b3:active {
+.b3:active {
   color: #f4f1f0;
   background: #e05304;
 }
@@ -262,7 +259,7 @@ b3:active {
 .b4 {
   height: 48px;
   background: #ff6b00;
-  font-family: var(--v5)
+  font-family: var(--v5);
   font-size: 17px;
   display: flex;
   align-items: center;
@@ -270,26 +267,25 @@ b3:active {
   letter-spacing: 0.03em;
   color: #fff;
   text-decoration: none;
-  Width: 107px;
-  Height: 24px;
-  Padding: 12px;
-  Gap: 10px;
+  width: 107px;
+  padding: 12px;
+  gap: 10px;
   line-height: 24px;
 }
 
 .b4:hover {
   color: #ff6b00;
   border-color: #ff6b00;
-  background: #fff5E1;
+  background: #fff5e1;
   border: 1px solid #f55800;
 }
 
-b4:disabled {
+.b4:disabled {
   background: #f4f1f0;
   color: #5b5957;
 }
 
-b4:active {
+.b4:active {
   color: #f4f1f0;
   background: #e05304;
 }
@@ -304,7 +300,7 @@ b4:active {
 }
 
 .tituloPAPD {
-  font-family: var(--v6)
+  font-family: var(--v6);
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -314,7 +310,7 @@ b4:active {
 }
 
 .parrafo2 {
-  font-family: var(--v5)
+  font-family: var(--v5);
   padding-left: 15px;
   padding-right: 30 px;
   font-size: 16px;
@@ -343,7 +339,7 @@ b4:active {
 }
 
 .about {
-  font-family: var(--v6)
+  font-family: var(--v6);
   padding-left: 15px;
   padding-top: 40px;
   line-height: 88px;
@@ -354,7 +350,7 @@ b4:active {
 }
 
 .parrafoAM {
-  font-family: var(--v5)
+  font-family: var(--v5);
   padding-left: 15px;
   padding-right: 30 px;
   font-size: 16px;
@@ -378,7 +374,7 @@ b4:active {
 }
 
 .bigskill {
-  font-family: var(--v5)
+  font-family: var(--v5);
   font-size: 32px;
   list-style-type: none;
   font-weight: 700;
@@ -386,7 +382,7 @@ b4:active {
 }
 
 .smallskill {
-  font-family: var(--v5)
+  font-family: var(--v5);
   font-size: 22px;
   list-style-type: none;
   font-weight: 400;
@@ -394,7 +390,7 @@ b4:active {
 }
 
 .pfinal {
-  font-family: var(--v5)
+  font-family: var(--v5);
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -406,7 +402,7 @@ b4:active {
 }
 
 .fill {
-  font-family: var(--v5)
+  font-family: var(--v5);
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
