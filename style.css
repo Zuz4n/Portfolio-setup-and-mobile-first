@@ -153,28 +153,26 @@ body {
 }
 
 .boton1 {
-  width: 124px;
   height: 48px;
   background: #FF6B00;
+  margin-left: 15px;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
-  line-height: 24px;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: #FFFFFF;
+
 }
 
 .projects {
   display: flex;
   flex-direction: column;
-  width: 100%;
   justify-content: center;
   background-image: url(./images/fondo.svg);
   background-repeat: no-repeat;
   width: 327px;
-  height: 386px;
 }
 
 .tituloPAPD {
@@ -215,7 +213,17 @@ body {
     letter-spacing: 0.03em;
     color: #FFFFFF;
   }
+   
+.page1 {
   
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 0%;
+  justify-content: center;
+  padding-bottom: 100px;    
+}
+
 .page3 {
   background-color: var(--v2);
   display: flex;
@@ -227,7 +235,7 @@ body {
   background-repeat: no-repeat;
   background-position-y: bottom;
   background-position-x: right;
-  padding-bottom: 100px;  
+  padding-bottom: 100px;    
 }
 
 .about {
@@ -239,6 +247,9 @@ body {
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #FF6B00;
+  font-size: 72px;
+  font-weight: 400;
+
 }
 
 .parrafoAM {
@@ -247,6 +258,8 @@ body {
   padding-right: 30 px;
   font-size: 16px;  
   color: #FFFFFF;
+  padding-left: 15px;
+  padding-right: 30px;
 }
 
 .boton3 {
@@ -271,21 +284,24 @@ body {
 }
 
 .skills {
-  display: flex;
   text-align: center;
-  align-items: center;
-  color: #FFFFFF;
-  list-style: none;
+  color:#FFFFFF;
 }
 
 .bigskill {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 32px;
+  list-style-type: none;
+  font-weight: 700;
+  line-height: 44px;
 }
 
 .smallskill {
   font-family: 'Inter', sans-serif;
   font-size: 22px;
+  list-style-type: none;
+  font-weight: 400;
+  line-height: 43px;
 }
 
 .pfinal {
@@ -296,6 +312,8 @@ body {
   line-height: 44px;
   text-align: center;
   color: #172B4D;
+  padding-left: 15px;
+  padding-right: 30px;
 }
 
 .fill {
@@ -318,13 +336,11 @@ body {
 }
 
 .comments {
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
   background: #fbf8f7;
-  Width: 327px;
   Height: 114px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: #fbf8f7;
 }
 
 .boton4 {
@@ -345,4 +361,24 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+ 
+.page4 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 0%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cuadrollenado {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;  
+
+}
+
+.fa-sharp {
+  color:#FF6B00
 }
