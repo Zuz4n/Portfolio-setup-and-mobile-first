@@ -8,6 +8,8 @@
   --v2: #1c1a19;
   --v3: rgb(255, 255, 255);
   --v4: #636160;
+  --v5: 'Inter', sans-serif;
+  --v6: 'Crete Round', serif;
 }
 
 body {
@@ -42,7 +44,7 @@ body {
   font-size: 56px;
   line-height: 60px;
   color: var(--v1);
-  font-family: 'Crete Round', serif;
+  font-family: var(--v6);'Crete Round', serif;
   padding-left: 15px;
   margin-bottom: 0%;
   padding-top: 40px;
@@ -60,6 +62,7 @@ body {
   background-position-y: bottom;
   background-position-x: right;
   padding-bottom: 100px;
+  margin: 0%;
 }
 
 .hamburguer {
@@ -103,10 +106,9 @@ body {
   font-style: normal;
   font-size: 40px;
   color: var(--v2);
-  font-family: 'Crete Round', serif;
+  font-family: var(--v6)
   padding-left: 15px;
   margin-bottom: 0%;
-  padding-top: 802px;
 }
 
 .vector {
@@ -124,7 +126,7 @@ body {
 }
 
 .multi {
-  font-family: 'Crete Round', serif;
+  font-family: var(--v6)
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -137,7 +139,7 @@ body {
 }
 
 .parrafo1 {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--v5)
   padding-left: 15px;
   padding-right: 30 px;
   font-size: 16px;
@@ -151,17 +153,145 @@ body {
   padding: 10px 12px;
 }
 
-.boton1 {
+.b1 {
   height: 48px;
   background: #ff6b00;
   margin-left: 15px;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--v5)
   font-size: 17px;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
+  text-decoration: none;
+  Width: 124px;
+  Height: 48px;
+  Top: 161px;
+  Left: 100px;
+  Padding: 12px;
+  Gap: 10px;
+}
+
+.b1:hover {
+  color: #ff6b00;
+  border-color: #ff6b00;
+  background: #fff5E1;
+  border: 1px solid #f55800;
+}
+
+b1:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
+b1:active {
+  color: #f4f1f0;
+  background: #e05304;
+}
+
+.b2 {
+  height: 48px;
+  background: #ff6b00;
+  font-family: var(--v5)
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  text-decoration: none;
+  Top: 161px;
+  Padding: 12px;
+}
+
+.b2:hover {
+  color: #ff6b00;
+  border-color: #ff6b00;
+  background: #fff5E1;
+  border: 1px solid #f55800;
+}
+
+b2:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
+b2:active {
+  color: #f4f1f0;
+  background: #e05304;
+}
+
+.b3 {
+  height: 48px;
+  background: #ff6b00;
+  margin-left: 15px;
+  font-family: var(--v5)
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  text-decoration: none;
+  Width: 161px;
+  Height: 48px;
+  Top: 395px;
+  Left: 100px;
+  Padding: 12px;
+  Gap: 10px;
+}
+
+.b3:hover {
+  color: #ff6b00;
+  border-color: #ff6b00;
+  background: #fff5E1;
+  border: 1px solid #f55800;
+}
+
+b3:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
+b3:active {
+  color: #f4f1f0;
+  background: #e05304;
+}
+
+.b4 {
+  height: 48px;
+  background: #ff6b00;
+  font-family: var(--v5)
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  text-decoration: none;
+  Width: 107px;
+  Height: 24px;
+  Padding: 12px;
+  Gap: 10px;
+  line-height: 24px;
+}
+
+.b4:hover {
+  color: #ff6b00;
+  border-color: #ff6b00;
+  background: #fff5E1;
+  border: 1px solid #f55800;
+}
+
+b4:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
+b4:active {
+  color: #f4f1f0;
+  background: #e05304;
 }
 
 .projects {
@@ -174,7 +304,7 @@ body {
 }
 
 .tituloPAPD {
-  font-family: 'Crete Round', serif;
+  font-family: var(--v6)
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -184,7 +314,7 @@ body {
 }
 
 .parrafo2 {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--v5)
   padding-left: 15px;
   padding-right: 30 px;
   font-size: 16px;
@@ -196,19 +326,6 @@ body {
   align-content: space-between;
   flex-direction: row;
   padding: 10px 12px;
-}
-
-.boton2 {
-  width: 327px;
-  height: 48px;
-  background: #ff6b00;
-  font-family: 'Inter', sans-serif;
-  font-size: 17px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
 }
 
 .page3 {
@@ -226,7 +343,7 @@ body {
 }
 
 .about {
-  font-family: 'Crete Round', serif;
+  font-family: var(--v6)
   padding-left: 15px;
   padding-top: 40px;
   line-height: 88px;
@@ -237,25 +354,11 @@ body {
 }
 
 .parrafoAM {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--v5)
   padding-left: 15px;
   padding-right: 30 px;
   font-size: 16px;
   color: #fff;
-}
-
-.boton3 {
-  width: 161px;
-  height: 48px;
-  background: #ff6b00;
-  font-family: 'Inter', sans-serif;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-  letter-spacing: 0.03em;
 }
 
 .vector2 {
@@ -266,12 +369,16 @@ body {
 }
 
 .skills {
-  text-align: center;
   color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-inline-start: 0;
 }
 
 .bigskill {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--v5)
   font-size: 32px;
   list-style-type: none;
   font-weight: 700;
@@ -279,7 +386,7 @@ body {
 }
 
 .smallskill {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--v5)
   font-size: 22px;
   list-style-type: none;
   font-weight: 400;
@@ -287,7 +394,7 @@ body {
 }
 
 .pfinal {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--v5)
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -299,7 +406,7 @@ body {
 }
 
 .fill {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--v5)
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -325,20 +432,6 @@ body {
   border: #fbf8f7;
 }
 
-.boton4 {
-  width: 131px;
-  height: 48px;
-  background: #ff6b00;
-  font-family: 'Inter', sans-serif;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-  letter-spacing: 0.03em;
-}
-
 .final_icons {
   display: flex;
   justify-content: space-between;
@@ -362,4 +455,10 @@ body {
 
 .fa-sharp {
   color: #ff6b00;
+}
+
+.cuadricula {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
 }
