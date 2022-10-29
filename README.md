@@ -7,14 +7,29 @@ Built With
 CSS
 HTML
 
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+### Setup
+
+### Install
+
+### Usage
+
+### Run tests
+
+### Deployment
+
+
 Authors
 👤 Susana González Gallardo
 
-GitHub: @Zuz4n
+- GitHub: @Zuz4n
 
-Twitter: @Suschen
+- Twitter: @Suschen
 
-LinkedIn: siuxmicroverse@gmail.com
+- LinkedIn: siuxmicroverse@gmail.com
 
 
 *_🤝 Contributing_*
