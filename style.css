@@ -453,7 +453,7 @@ body {
   color: #ff6b00;
 }
 
-.cuadricula {
+.grid {
   display: grid;
   grid-template-columns: auto;
   grid-gap: 10px;
