@@ -170,17 +170,18 @@
   <section class="page4">
     <p class="pfinal">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
     
-    <form action="https://formspree.io/f/mdojpdgz{form_id}" method="post">
+    <form action="https://formspree.io/f/mdojpdgz" method="post">
       <label class="data">Full name</label>
-      <input type="text" name="name" maxlength="30" placeholder="Your name here" required pattern="[A-Za-z0-9]+" required/>
+      <input type="text" name="name" maxlength="30" placeholder="Your name here" required/>
       <img class="fillbar"src="./images/fillbar.svg">
       <label class="data">Email adress</label>
-      <input type="email" name="email"  required pattern=".+@gmail+@yahoo+@hotmail\.com" placeholder="example@gmail.com" required/>
+      <input type="email" name="email" placeholder="example@gmail.com" required/>
       <img class="fillbar"src="./images/fillbar.svg">
-      <textarea name="textarea" minlength="500" class="data" required >Enter text here</textarea>
+      <textarea name="textarea" for="mensaje" placeholder="Enter text here" maxlength="500" required></textarea>
+      <button class="b4" type="submit">Get in touch</button>
   </form>
-  
-<button class="b4" type="submit">Get in touch</button>
+
+
   <div class="final_icons">
     <ul>
     <li<a href="https://github.com/Zuz4n/"><img class="github"src="./images/Github.svg"></a></li>
