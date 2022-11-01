@@ -175,7 +175,7 @@ body {
   color: #ff6b00;
   border-color: #ff6b00;
   background: #fff5e1;
-  border: 1px solid black;
+  border: 1px solid #f55800;
 }
 
 .b1:disabled {
@@ -401,7 +401,7 @@ body {
   padding-right: 30px;
 }
 
-.fill {
+.data {
   font-family: var(--v5);
   font-style: normal;
   font-weight: 400;
@@ -410,6 +410,14 @@ body {
   display: flex;
   align-items: center;
   color: #979493;
+}
+
+.fillbar {
+  color: #dbd8d7;
+  height: 1px;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 textarea {
@@ -444,7 +452,7 @@ input {
   justify-content: space-between;
 }
 
-.cuadrollenado {
+.form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
