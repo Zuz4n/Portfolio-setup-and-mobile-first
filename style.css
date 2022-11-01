@@ -88,7 +88,7 @@ body {
 .grid-container {
   display: flex;
   justify-content: flex-start;
-  padding-left: 10px;
+  padding-left: 5px;
 }
 
 .page1 {
@@ -175,7 +175,7 @@ body {
   color: #ff6b00;
   border-color: #ff6b00;
   background: #fff5e1;
-  border: 1px solid #f55800;
+  border: 1px solid black;
 }
 
 .b1:disabled {
