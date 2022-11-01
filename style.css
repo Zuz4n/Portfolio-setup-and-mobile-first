@@ -412,20 +412,21 @@ body {
   color: #979493;
 }
 
-.fillbar {
-  color: #dbd8d7;
-  height: 1px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.comments {
+textarea {
   background: #fbf8f7;
   height: 114px;
   padding-left: 24px;
   padding-right: 24px;
   border: #fbf8f7;
+}
+
+input {
+  height: 40px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: #fbf8f7;
+  font-size: 15px;
+  color: var(--v1);
 }
 
 .final_icons {
@@ -453,8 +454,20 @@ body {
   color: #ff6b00;
 }
 
-.grid {
+.gridprojects {
   display: grid;
   grid-template-columns: auto;
   grid-gap: 10px;
 }
+
+::placeholder {
+  font-family: var(--v5);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #979493;
+}
+
