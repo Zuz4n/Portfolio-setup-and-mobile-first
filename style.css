@@ -401,7 +401,7 @@ body {
   padding-right: 30px;
 }
 
-.fill {
+.data {
   font-family: var(--v5);
   font-style: normal;
   font-weight: 400;
@@ -420,11 +420,18 @@ body {
   bottom: 0;
 }
 
-.comments {
+textarea {
   background: #fbf8f7;
   height: 114px;
   padding-left: 24px;
   padding-right: 24px;
+  border: #fbf8f7;
+}
+
+input {
+  height: 40px;
+  padding-left: 12px;
+  padding-right: 12px;
   border: #fbf8f7;
 }
 
@@ -443,7 +450,7 @@ body {
   justify-content: space-between;
 }
 
-.cuadrollenado {
+.form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -453,8 +460,19 @@ body {
   color: #ff6b00;
 }
 
-.cuadricula {
+.gridprojects {
   display: grid;
   grid-template-columns: auto;
   grid-gap: 10px;
+}
+
+::placeholder {
+  font-family: var(--v5);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color:var(--v2)
 }
