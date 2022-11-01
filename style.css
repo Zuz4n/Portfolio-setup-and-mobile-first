@@ -452,7 +452,7 @@ input {
   justify-content: space-between;
 }
 
-.form {
+form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
