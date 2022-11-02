@@ -51,7 +51,7 @@
       </div>
       <a target="_blank" class="b1" href="https://www.microverse.org/">See Project</a> 
     
-      <div class="cuadricula">
+      <div class="grid">
       <div class="projects">
         <h2 class="tituloPAPD">Profesional Art Printing Data</h2>
           <p class="parrafo2">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
@@ -169,14 +169,36 @@
   </section>
   <section class="page4">
     <p class="pfinal">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-  <form class="cuadrollenado"> 
-    <p class="fill">Full name</p>
-  <img class="fillbar"src="./images/fillbar.svg">
-    <p class="fill">Email address</p> 
+    
+    <form action="https://formspree.io/f/mdojpdgz" method="post">
+      <label class="data">Full name</label>
+      <input type="text" 
+        name="name" 
+        id= "name" 
+        placeholder="Your name here" 
+        required 
+        maxlength="30"
+      />
       <img class="fillbar"src="./images/fillbar.svg">
-         <textarea class="comments">Enter text here</textarea>
-</form>
-<a target="_blank" class="b4" href="https://www.microverse.org/">Get in touch</a>
+      <label class="data">Email adress</label>
+      <input type="email" 
+        name="email"
+        id="email" 
+        placeholder="example@gmail.com" 
+        required
+      />
+      <img class="fillbar"src="./images/fillbar.svg">
+      <textarea 
+        name="textarea" 
+        for="mensaje" 
+        placeholder="Enter text here" 
+        maxlength="500" 
+        required
+      ></textarea>
+      <input class="b4" type="submit" value="Get in touch"/>
+  </form>
+
+
   <div class="final_icons">
     <ul>
     <li<a href="https://github.com/Zuz4n/"><img class="github"src="./images/Github.svg"></a></li>
