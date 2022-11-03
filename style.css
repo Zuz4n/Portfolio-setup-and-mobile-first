@@ -481,9 +481,11 @@ form {
 
 
 @media (min-width: 768px) {
+  
   .hamburguer{
     display: none;
   }
+
   .list-menu{
     display: flex;
     list-style-type: none;
@@ -519,7 +521,6 @@ form {
     padding: 10%;
     margin: 0%;
     place-content: center;
-
   }
 
   .titulo {
@@ -567,7 +568,6 @@ form {
     margin-top: auto; 
     width:50%;
     font-size: 3em;
-
   }
 
   .vector {
@@ -576,7 +576,6 @@ form {
     width: 100%;
     height: auto;
     border: #dbd8d7;
-
   }
 
   .bodyP2 {
@@ -616,7 +615,6 @@ form {
 
 
   .parrafo1 {
-
     padding: 0%;
     display: flex;
     flex-direction: column;
@@ -629,51 +627,27 @@ form {
   }
 
   .b1 {
-   
     display: flex;
     align-items: center;
     flex-direction: column;
   }
 
-.gridprojects {
-  display: grid;
+  .gridprojects {
+   display: grid;
 }
 
+.projects1, .projects2, .projects3, .projects4, .projects5, .projects6 {
+  display: none;
+}
   .projects1 {
-    /*grid-column: 1/2;
-    grid-row: 3/4;*/
+  
+    display: grid;
     grid-area: area3;
-  }
+    background-image: url(./images/P1.png);
+    background-repeat: no-repeat;
+    width: 327px;
+}
 
-  .projects2 {
-   /* grid-column: 2/3;
-    grid-row: 3/4;*/
-    grid-area: area4;
-  }
-
-  .projects3 {
-    /*grid-column: 3/4;
-    grid-row: 3/4;*/
-    grid-area: area5;
-  }
-
-  .projects4 {
-    /*grid-column: 1/2;
-    grid-row: 4/5;*/
-    grid-area: area6;
-  }
-
-  .projects5 {
-    /*grid-column: 2/3;
-    grid-row: 4/5;*/
-    grid-area: area7;
-  }
-
-  .projects6 {  
-    /*grid-column: 3/4;
-    grid-row: 4/5;*/
-    grid-area: area8;
-  }
 
 }
 
