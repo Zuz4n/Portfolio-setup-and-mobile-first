@@ -331,11 +331,6 @@ body {
   width: 100%;
   margin-top: 0%;
   justify-content: center;
-  background-image: url(./images/about.svg);
-  background-repeat: no-repeat;
-  background-position-y: bottom;
-  background-position-x: right;
-  padding-bottom: 100px;
 }
 
 .about {
@@ -357,13 +352,14 @@ body {
   color: #fff;
 }
 
-.vector2 {
-  color: #fff;
-  color: var(--v2);
-  left: 24px;
-  right: 24px;
-}
+  .P3about {
+    background-image: url(./images/imgabout1.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+    padding-bottom: 180px;
 
+}
 .skills {
   color: #fff;
   display: flex;
@@ -559,7 +555,7 @@ form {
   .headerP2 {
     display: flex;
     flex-direction: row;
-    margin-top: 0%;
+    margin-top: 15%;
   }
 
   .tituloMR {
@@ -580,74 +576,187 @@ form {
 
   .bodyP2 {
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
-    grid-template-rows: repeat(4,1fr);
-    grid-gap: 5px;  
+    grid-template-columns: 1fr, 1fr;
+    grid-gap: 0px;  
     grid-template-areas: 
-    "area1 area1 area2"
-    "area1 area1 area2"
+    "area1 area2";
+    justify-content:left;
+  }
+
+  .gridprojects{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 0px;  
+    grid-template-areas: 
     "area3 area4 area5"
     "area6 area7 area8";
+    align-content: center;
   }
+
 
   .yoga {
     grid-area: area1;
     width: 35em;
     height: 35em;
+    margin-top: 0%;
   }
 
-  .Multi-post {
+  .textright {
     grid-area: area2;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
   }
-
-  .multi {
-    padding: 0%;
-    height: 48px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-
-  .parrafo1 {
-    padding: 0%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .list_programs {
-    justify-content: center;
-  }
-
-  .b1 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .gridprojects {
-   display: grid;
-}
-
+  
 .projects1, .projects2, .projects3, .projects4, .projects5, .projects6 {
   display: none;
 }
   .projects1 {
-  
     display: grid;
     grid-area: area3;
     background-image: url(./images/P1.png);
     background-repeat: no-repeat;
-    width: 327px;
+    width: 359px;
+    height: 435px;
+    margin-bottom: 5%;
 }
 
+  .projects2 {
+    display: grid;
+    grid-area: area4;
+    background-image: url(./images/P2.png);
+    background-repeat: no-repeat;
+    width: 359px;
+    height: 435px;
+    margin-bottom: 5%;
+}
+
+  .projects3 {
+    display: grid;
+    grid-area: area5;
+    background-image: url(./images/P3.png);
+    background-repeat: no-repeat;
+    width: 359px;
+    height: 435px;
+    margin-bottom: 5%;
+}
+
+  .projects4 {
+    display: grid;
+    grid-area: area6;
+    background-image: url(./images/P4.png);
+    background-repeat: no-repeat;
+    width: 359px;
+    height: 435px;
+    margin-bottom: 5%;
+}
+
+ .projects5 {
+    display: grid;
+    grid-area: area7;
+    background-image: url(./images/P2.png);
+    background-repeat: no-repeat;
+    width: 359px;
+    height: 435px;
+    margin-bottom: 5%;
+}
+
+  .projects6 {
+    display: grid;
+    grid-area: area8;
+    background-image: url(./images/P3.png);
+    background-repeat: no-repeat;
+    width: 359px;
+    height: 435px;
+    margin-bottom: 5%;
+}
+
+  .P3about {
+    display: grid;
+    background-image: none;
+    grid-template-columns: 1fr, 1fr;
+    grid-gap: 0px;  
+    grid-template-areas: 
+    "about imgabout";
+    align-content: center;
+  }
+
+  .about, .parrafoAM, .b3 {
+    grid-area: about;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+  }
+
+  .vector3 {
+    grid-area: imgabout;
+  }
+
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr;
+    grid-gap: 0px;  
+    grid-template-areas: 
+    "linea linea linea"
+    "lang fram skil";
+    align-content: center;
+}
+  .linea {
+    grid-area: linea;
+    justify-content: center;
+    align-content: center;
+}
+
+  .Languaje{
+    display: grid;
+    grid-area: lang;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+  .Framework{
+    display: grid;
+    grid-area: fram;
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+
+  .Skillsp{
+    display: grid;
+    grid-area: skil;
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+
+  .bigskill{
+    width: 228px;
+    height: 24px;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    Top: 8px;
+    Left: 42px;
+    padding: 5%;
+  }
+
+  .smallskill{
+    width: 114px;
+    height: 24px;
+    font-size: 22px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    Top: 12px;
+    padding: 5%;
+  }
+
+  .vector2 {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -657,6 +766,15 @@ form {
   .bigimageP1{
     display:none;
   }
+
+  .linea{
+    display:none;
+  }
+
+  .vector3{
+    display:none;
+  }
+
 
 
 }
