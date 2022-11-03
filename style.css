@@ -433,9 +433,18 @@ input {
   color: var(--v1);
 }
 
+
 .final_icons {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -757,6 +766,29 @@ form {
   .vector2 {
     display: none;
   }
+
+  .page4 {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: repeat(5,1fr);
+    grid-gap: 0px;  
+    grid-template-areas: 
+    "tex first last"
+    "tex mail mail"
+    "tex camp camp"
+    "tex camp camp"
+    "not get not";
+    align-content: center;
+}
+ .pfinal {
+    display: grid;
+    grid-area: tex;
+ }
+
+ .data {
+    display: grid;
+    grid-area: first;
+ }
 }
 
 @media (max-width: 768px) {
