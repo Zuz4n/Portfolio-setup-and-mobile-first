@@ -90,6 +90,7 @@ body {
     margin-left: 100%;
     width: 300%;
   }
+
   to {
     margin-left: 0%;
     width: 100%;
@@ -217,7 +218,7 @@ body {
   letter-spacing: 0.03em;
   color: #fff;
   text-decoration: none;
-  top: 161px; 
+  top: 161px;
   padding: 12px;
   width: 335px;
   transition: 2s, height 2s, background-color 2s, transform 2s, all 0.5s ease-out;
