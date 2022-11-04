@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 :root {
-  --v1: #F55800;;
+  --v1: #f55800;
   --v2: #1c1a19;
   --v3: rgb(255, 255, 255);
   --v4: #636160;
@@ -195,7 +195,6 @@ body {
   font-size: 17px;
   display: flex;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
   text-decoration: none;
@@ -290,7 +289,12 @@ body {
   background: #e05304;
 }
 
-.projects1, .projects2, .projects3, .projects4, .projects5, .projects6 {
+.projects1,
+.projects2,
+.projects3,
+.projects4,
+.projects5,
+.projects6 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -328,7 +332,7 @@ body {
   background-color: var(--v2);
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: auto;
   margin-top: 0%;
   justify-content: center;
 }
@@ -352,14 +356,14 @@ body {
   color: #fff;
 }
 
-  .P3about {
-    background-image: url(./images/imgabout1.png);
-    background-repeat: no-repeat;
-    background-position-y: bottom;
-    background-position-x: right;
-    padding-bottom: 180px;
-
+.P3about {
+  background-image: url(./images/imgabout1.png);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: right;
+  padding-bottom: 180px;
 }
+
 .skills {
   color: #fff;
   display: flex;
@@ -393,8 +397,7 @@ body {
   line-height: 44px;
   text-align: center;
   color: #172b4d;
-  padding-left: 15px;
-  padding-right: 30px;
+  padding: 10%;
 }
 
 .data {
@@ -406,6 +409,7 @@ body {
   display: flex;
   align-items: center;
   color: #979493;
+  border-bottom: #1c1a19;
 }
 
 .fillbar {
@@ -433,7 +437,6 @@ input {
   color: var(--v1);
 }
 
-
 .final_icons {
   display: flex;
   flex-direction: column;
@@ -460,7 +463,6 @@ input {
 form {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .fa-sharp {
@@ -484,17 +486,15 @@ form {
   color: #979493;
 }
 
-
 @media (min-width: 768px) {
-  
-  .hamburguer{
+  .hamburguer {
     display: none;
   }
 
-  .list-menu{
+  .list-menu {
     display: flex;
     list-style-type: none;
-    color: #FFFFFF;
+    color: #fff;
     font-family: var(--v5);
     font-size: 15px;
     grid-column: 2/4;
@@ -508,7 +508,6 @@ form {
   }
 
   .hello {
-    background-image: none;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -516,11 +515,11 @@ form {
     background-image: url(./images/Bigimage.png);
     margin: 0%;
     height: 0%;
-  } 
+  }
 
   .grid-container {
     grid-column: 1/1;
-    grid-row:1/4;
+    grid-row: 1/4;
     display: flex;
     flex-direction: column;
     padding: 10%;
@@ -570,8 +569,8 @@ form {
   .tituloMR {
     align-content: center;
     justify-content: center;
-    margin-top: auto; 
-    width:50%;
+    margin-top: auto;
+    width: 50%;
     font-size: 3em;
   }
 
@@ -586,23 +585,21 @@ form {
   .bodyP2 {
     display: grid;
     grid-template-columns: 1fr, 1fr;
-    grid-gap: 0px;  
-    grid-template-areas: 
-    "area1 area2";
-    justify-content:left;
+    grid-gap: 0;
+    grid-template-areas: "area1 area2";
+    justify-content: left;
   }
 
-  .gridprojects{
+  .gridprojects {
     display: grid;
     grid-template-columns: 1fr, 1fr, 1fr;
-    grid-template-rows: repeat(2,1fr);
-    grid-gap: 0px;  
-    grid-template-areas: 
-    "area3 area4 area5"
-    "area6 area7 area8";
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 15px;
+    grid-template-areas:
+      "area3 area4 area5"
+      "area6 area7 area8";
     align-content: center;
   }
-
 
   .yoga {
     grid-area: area1;
@@ -618,19 +615,37 @@ form {
     align-items: left;
     justify-content: center;
   }
-  
-.projects1, .projects2, .projects3, .projects4, .projects5, .projects6 {
-  display: none;
-}
+
+  .projects1,
+  .projects2,
+  .projects3,
+  .projects4,
+  .projects5,
+  .projects6 {
+    display: none;
+  }
+
   .projects1 {
     display: grid;
     grid-area: area3;
     background-image: url(./images/P1.png);
     background-repeat: no-repeat;
-    width: 359px;
+    width: 100%;
     height: 435px;
-    margin-bottom: 5%;
-}
+    align-content: end;
+  }
+
+  .projects1 p {
+    display: none;
+  }
+
+  .projects1 ul {
+    display: none;
+  }
+
+  .projects1 h2 {
+    display: none;
+  }
 
   .projects2 {
     display: grid;
@@ -640,7 +655,8 @@ form {
     width: 359px;
     height: 435px;
     margin-bottom: 5%;
-}
+    align-content: end;
+  }
 
   .projects3 {
     display: grid;
@@ -650,7 +666,8 @@ form {
     width: 359px;
     height: 435px;
     margin-bottom: 5%;
-}
+    align-content: end;
+  }
 
   .projects4 {
     display: grid;
@@ -660,9 +677,10 @@ form {
     width: 359px;
     height: 435px;
     margin-bottom: 5%;
-}
+    align-content: end;
+  }
 
- .projects5 {
+  .projects5 {
     display: grid;
     grid-area: area7;
     background-image: url(./images/P2.png);
@@ -670,7 +688,8 @@ form {
     width: 359px;
     height: 435px;
     margin-bottom: 5%;
-}
+    align-content: end;
+  }
 
   .projects6 {
     display: grid;
@@ -680,24 +699,31 @@ form {
     width: 359px;
     height: 435px;
     margin-bottom: 5%;
-}
-
-  .P3about {
-    display: grid;
-    background-image: none;
-    grid-template-columns: 1fr, 1fr;
-    grid-gap: 0px;  
-    grid-template-areas: 
-    "about imgabout";
-    align-content: center;
+    align-content: end;
   }
 
-  .about, .parrafoAM, .b3 {
-    grid-area: about;
+  .P3about {
+    background-image: url(./images/imgabout.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+  }
+
+  .about,
+  .parrafoAM,
+  .b3 {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: center;
+    justify-content: flex-start;
+  }
+
+  .parrafoAM {
+    font-family: var(--v5);
+    padding-left: 15px;
+    font-size: 16px;
+    color: #fff;
+    width: 50%;
   }
 
   .vector3 {
@@ -706,60 +732,57 @@ form {
 
   .skills {
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
-    grid-template-rows: 1fr, 1fr;
-    grid-gap: 0px;  
-    grid-template-areas: 
-    "linea linea linea"
-    "lang fram skil";
-    align-content: center;
-}
+    grid-template-columns: repeat (3, 1fr);
+    grid-template-rows: repeat (2, 1fr);
+    grid-gap: 0;
+    grid-template-areas:
+      "linea linea linea"
+      "lang fram skil";
+  }
+
   .linea {
     grid-area: linea;
     justify-content: center;
     align-content: center;
-}
+  }
 
-  .Languaje{
+  .Languaje {
     display: grid;
     grid-area: lang;
-    padding-top: 15%;
-    padding-bottom: 15%;
-}
-  .Framework{
+  }
+
+  .Framework {
     display: grid;
     grid-area: fram;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    margin-top: 10%;
   }
 
-  .Skillsp{
+  .Skillsp {
     display: grid;
     grid-area: skil;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    margin-top: 10%;
   }
 
-  .bigskill{
+  .bigskill {
     width: 228px;
     height: 24px;
     font-size: 32px;
     line-height: 44px;
     display: flex;
     align-items: center;
-    Top: 8px;
-    Left: 42px;
+    top: 8px;
+    left: 42px;
     padding: 5%;
   }
 
-  .smallskill{
+  .smallskill {
     width: 114px;
     height: 24px;
     font-size: 22px;
     line-height: 43px;
     display: flex;
     align-items: center;
-    Top: 12px;
+    top: 12px;
     padding: 5%;
   }
 
@@ -768,45 +791,64 @@ form {
   }
 
   .page4 {
-    display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
-    grid-template-rows: repeat(5,1fr);
-    grid-gap: 0px;  
-    grid-template-areas: 
-    "tex first last"
-    "tex mail mail"
-    "tex camp camp"
-    "tex camp camp"
-    "not get not";
-    align-content: center;
-}
- .pfinal {
-    display: grid;
-    grid-area: tex;
- }
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    margin-top: 10%;
+  }
 
- .data {
-    display: grid;
-    grid-area: first;
- }
+  form {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    align-items: space-between;
+  }
+
+  input {
+    border-bottom: 5px, #e05304;
+  }
+
+  .tituloPAPD {
+    display: none;
+  }
+
+  .tituloPAPD2 {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--v6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    padding-left: 15px;
+    margin-top: 50%;
+  }
+
+  .pfinal {
+    font-size: 2.5em;
+    padding: 15%;
+  }
 }
 
 @media (max-width: 768px) {
-  .list-menu{
-    display:none;
-  }
-  .bigimageP1{
-    display:none;
+  .list-menu {
+    display: none;
   }
 
-  .linea{
-    display:none;
+  .bigimageP1 {
+    display: none;
   }
 
-  .vector3{
-    display:none;
+  .linea {
+    display: none;
   }
 
+  .vector3 {
+    display: none;
+  }
 
-
+  .tituloPAPD2 {
+    display: none;
+  }
 }
