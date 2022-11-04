@@ -12,6 +12,12 @@
   --v6: 'Crete Round', serif;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin-top: 0%;
   width: 100%;
@@ -397,7 +403,7 @@ body {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172b4d;
+  color: #262626;
   padding: 10%;
 }
 
@@ -798,7 +804,8 @@ form {
     display: flex;
     text-align: left;
     flex-direction: column;
-    width: 70%;
+    width: 60%;
+    padding-bottom: 10%;
   }
 
   input {
@@ -826,8 +833,9 @@ form {
     font-size: 2em;
     display: flex;
     text-align: left;
-    padding: 15%;
-    width: 30%;
+    padding: 5%;
+    width: 40%;
+    padding-bottom: 23%;
   }
 }
 
