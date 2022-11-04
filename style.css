@@ -498,6 +498,14 @@ form {
     display: none;
   }
 
+  .list-menu li {
+    transition: color 2s;
+  }
+
+  .list-menu li:hover {
+    color: green;
+  }
+
   .list-menu {
     display: flex;
     list-style-type: none;
