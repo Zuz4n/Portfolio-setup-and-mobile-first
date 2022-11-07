@@ -22,6 +22,7 @@ To get a local copy up and running follow these simple example steps.
 ### Deployment
 
 
+
 Authors
 👤 Susana González Gallardo
 
@@ -30,6 +31,8 @@ Authors
 - Twitter: @Suschen
 
 - LinkedIn: siuxmicroverse@gmail.com
+
+- Portfolio: https://zuz4n.github.io/Portfolio-setup-and-mobile-first/
 
 
 *_🤝 Contributing_*
