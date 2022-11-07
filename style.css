@@ -81,6 +81,20 @@ body {
   font-size: 24px;
   line-height: 32px;
   padding-left: 15px;
+  animation-duration: 4s;
+  animation-name: entrance;
+}
+
+@keyframes entrance {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .parrafo {
@@ -207,6 +221,7 @@ body {
   top: 161px;
   padding: 12px;
   width: 335px;
+  transition: 2s, height 2s, background-color 2s, transform 2s, all 0.5s ease-out;
 }
 
 .b2:hover {
