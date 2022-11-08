@@ -107,6 +107,7 @@ body {
 
 .grid-container {
   display: flex;
+  flex-direction: row;
   justify-content: flex-start;
   padding-left: 5px;
 }
@@ -288,10 +289,10 @@ body {
   letter-spacing: 0.03em;
   color: #fff;
   text-decoration: none;
-  width: 127px;
-  padding: 12px;
-  gap: 10px;
+  width: 180px;
   line-height: 24px;
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
 
 .b4:hover {
@@ -339,6 +340,7 @@ body {
   font-family: var(--v5);
   padding-left: 15px;
   padding-right: 30 px;
+  padding-bottom: 20px;;
   font-size: 16px;
   color: #fff;
 }
@@ -347,7 +349,9 @@ body {
   display: flex;
   align-content: space-between;
   flex-direction: row;
-  padding: 10px 12px;
+  gap: 15px;
+  justify-content: center;
+
 }
 
 .page3 {
@@ -448,6 +452,7 @@ textarea {
   padding-left: 24px;
   padding-right: 24px;
   border: #fbf8f7;
+
 }
 
 input {
@@ -461,16 +466,18 @@ input {
 
 .final_icons {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.fb {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.finaline {
+
+  height: 25px;
+  Width:134px;
+  margin-left: 30%;
+
+
 }
 
 .page4 {
@@ -507,6 +514,7 @@ form {
   align-items: center;
   color: #979493;
 }
+
 
 @media (min-width: 768px) {
   .hamburguer {
@@ -663,6 +671,7 @@ form {
     width: 100%;
     height: 435px;
     align-content: end;
+    justify-content: start;
   }
 
   .projects1 p {
@@ -738,6 +747,10 @@ form {
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: right;
+  }
+
+  .b2 {
+    display: none;
   }
 
   .about,
@@ -860,6 +873,40 @@ form {
     width: 40%;
     padding-bottom: 23%;
   }
+  
+  .b5 {
+    height: 48px;
+    background: #ff6b00;
+    font-family: var(--v5);
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    text-decoration: none;
+    top: 161px;
+    padding: 12px;
+    width: 370px;
+    transition: 2s, height 2s, background-color 2s, transform 2s, all 0.5s ease-out;
+  }
+  
+  .b5:hover {
+    color: #ff6b00;
+    border-color: #ff6b00;
+    background: #fff5e1;
+    border: 1px solid #f55800;
+  }
+  
+  .b5:disabled {
+    background: #f4f1f0;
+    color: #5b5957;
+  }
+  
+  .b5:active {
+    color: #f4f1f0;
+    background: #e05304;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -881,5 +928,10 @@ form {
 
   .tituloPAPD2 {
     display: none;
+  }
+
+  .b5, .b5:hover, .b5:disabled, .b5:active {
+    display: none;
+
   }
 }
