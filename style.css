@@ -340,7 +340,7 @@ body {
   font-family: var(--v5);
   padding-left: 15px;
   padding-right: 30 px;
-  padding-bottom: 20px;;
+  padding-bottom: 20px;
   font-size: 16px;
   color: #fff;
 }
@@ -351,7 +351,6 @@ body {
   flex-direction: row;
   gap: 15px;
   justify-content: center;
-
 }
 
 .page3 {
@@ -452,7 +451,6 @@ textarea {
   padding-left: 24px;
   padding-right: 24px;
   border: #fbf8f7;
-
 }
 
 input {
@@ -472,12 +470,9 @@ input {
 }
 
 .finaline {
-
   height: 25px;
-  Width:134px;
+  width: 134px;
   margin-left: 30%;
-
-
 }
 
 .page4 {
@@ -514,7 +509,6 @@ form {
   align-items: center;
   color: #979493;
 }
-
 
 @media (min-width: 768px) {
   .hamburguer {
@@ -873,7 +867,7 @@ form {
     width: 40%;
     padding-bottom: 23%;
   }
-  
+
   .b5 {
     height: 48px;
     background: #ff6b00;
@@ -889,24 +883,23 @@ form {
     width: 370px;
     transition: 2s, height 2s, background-color 2s, transform 2s, all 0.5s ease-out;
   }
-  
+
   .b5:hover {
     color: #ff6b00;
     border-color: #ff6b00;
     background: #fff5e1;
     border: 1px solid #f55800;
   }
-  
+
   .b5:disabled {
     background: #f4f1f0;
     color: #5b5957;
   }
-  
+
   .b5:active {
     color: #f4f1f0;
     background: #e05304;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -930,8 +923,10 @@ form {
     display: none;
   }
 
-  .b5, .b5:hover, .b5:disabled, .b5:active {
+  .b5,
+  .b5:hover,
+  .b5:disabled,
+  .b5:active {
     display: none;
-
   }
 }
