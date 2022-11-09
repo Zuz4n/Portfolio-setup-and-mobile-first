@@ -171,6 +171,7 @@ body {
   align-content: space-between;
   flex-direction: row;
   padding: 10px 12px;
+  list-style: none;
 }
 
 .b1 {
@@ -291,8 +292,8 @@ body {
   text-decoration: none;
   width: 180px;
   line-height: 24px;
-  margin-top: 15%;
-  margin-bottom: 15%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .b4:hover {
@@ -351,6 +352,7 @@ body {
   flex-direction: row;
   gap: 15px;
   justify-content: center;
+  list-style: none;
 }
 
 .page3 {
@@ -422,7 +424,7 @@ body {
   line-height: 44px;
   text-align: center;
   color: #262626;
-  padding: 10%;
+  padding-top: 0%;
 }
 
 .data {
@@ -481,7 +483,7 @@ input {
 .finaline {
   height: 25px;
   width: 134px;
-  margin-left: 30%;
+  margin-left: 45%;
 }
 
 .page4 {
@@ -836,7 +838,7 @@ form {
   .page4 {
     display: flex;
     flex-direction: row;
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
   form {
@@ -844,7 +846,6 @@ form {
     text-align: left;
     flex-direction: column;
     width: 60%;
-    padding-bottom: 10%;
   }
 
   input {
@@ -872,9 +873,10 @@ form {
     font-size: 2em;
     display: flex;
     text-align: left;
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
     width: 40%;
-    padding-bottom: 23%;
+    padding-bottom: 20%;
   }
 
   .b5 {
