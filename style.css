@@ -171,6 +171,7 @@ body {
   align-content: space-between;
   flex-direction: row;
   padding: 10px 12px;
+  list-style: none;
 }
 
 .b1 {
@@ -351,6 +352,7 @@ body {
   flex-direction: row;
   gap: 15px;
   justify-content: center;
+  list-style: none;
 }
 
 .page3 {
@@ -547,7 +549,6 @@ form {
     display: grid;
     grid-template-columns: 3;
   }
-
 
   .hello {
     display: grid;
