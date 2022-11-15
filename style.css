@@ -79,12 +79,11 @@ body {
   position: absolute;
   background-color: #3c3a39;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-
-  /* z-index: 1; */
   left: 0;
   right: 0;
   top: 0;
-  bottom: 270px;
+  bottom:0;
+  
 }
 
 .btnx {
@@ -110,7 +109,7 @@ body {
 .show { display: block; }
 
 .hamburguer {
-  padding-right: 15px;
+  margin-right: 15px;
 }
 
 .subtitulo {
@@ -563,6 +562,7 @@ form {
 @media (min-width: 768px) {
   .hamburguer {
     display: none;
+    
   }
 
   .list-menu li {
