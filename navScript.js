@@ -17,6 +17,8 @@ function myFunction() {
 
   function functionPopup() {
     displayLayoutpopup();
+    document.getElementById("windowpopup").classList.toggle("show");
+
   }
   
   let popupProj1 = [
@@ -36,7 +38,6 @@ function myFunction() {
   function displayLayoutpopup() {
     let containerPopup = document.createElement('div');
     containerPopup.innerHTML= `<h2>${popupProj1[0].title}</h2>`
-
 
   } 
   

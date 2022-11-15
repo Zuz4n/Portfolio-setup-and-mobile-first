@@ -195,6 +195,14 @@ body {
   padding-right: 30px;
 }
 
+.popupMultipost {
+  display: none;
+  border: red 2px solid;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+
 .parrafo1 {
   font-family: var(--v5);
   padding-left: 15px;
