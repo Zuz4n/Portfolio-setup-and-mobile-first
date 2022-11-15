@@ -106,6 +106,7 @@ body {
 }
 
 .show { display: block; }
+.show2 { display: block !important; }
 
 .hamburguer {
   margin-right: 15px;
