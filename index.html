@@ -7,15 +7,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio-Setup-and mobile-first</title>
   <link rel="stylesheet" href="./style.css">
+  <script src="./navScript.js" defer></script>
+  
 </head>
 
 <body>
   <header>
     <div class="bar">
       <a class="name">Susana González</a>
-
-      <img class="hamburguer" src="./images/hamburguer.svg" alt="hamburguer">
-
+      <nav class="hamburguerMobile">
+        <img onclick="myFunction()" class="hamburguer" src="./images/hamburguer.svg" alt="hamburguer">
+        <ul id="hideHamburguer" class="dropdown-content" >
+          <li class="btnx"><img src="./images/Iconx.png" alt="close_icon"></li>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    
       <ul class="list-menu">
         <li>Portafolio</li>
         <li>About</li>
@@ -46,7 +55,7 @@
       </div>
     </section>
 
-    <section class="page1">
+    <section class="page1" id="Portfolio">
       <div class="headerP2">
         <h2 class="tituloMR">My Recent Works</h2>
 
@@ -178,7 +187,7 @@
 
     </section>
 
-    <section class="page3">
+    <section class="page3" id="About">
 
     <div class="P3about"> 
       <h2 class="about">About me</h2>
@@ -226,7 +235,7 @@
       </div>
     </section>
 
-    <section class="page4">
+    <section class="page4" id="Contact">
 
       
 
