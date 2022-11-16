@@ -106,7 +106,12 @@ body {
 }
 
 .show { display: block; }
-.show2 { display: block !important; }
+
+.show2 { 
+  display: block !important;
+  z-index: 10;
+  color: pink;
+ }
 
 .hamburguer {
   margin-right: 15px;
@@ -201,6 +206,8 @@ body {
   border: red 2px solid;
   min-width: 100px;
   min-height: 100px;
+  z-index: 10;
+  background-color: #f4f1f0;
 }
 
 
@@ -987,5 +994,4 @@ form {
     display: none;
   }
 }
-
 
