@@ -15,11 +15,16 @@ window.onclick = function (event) {
   }
 }
 
+
+
 function functionPopup() {
+  // deleteChild(); 
+  document.getElementById("windowpopup").innerHTML = '';
   displayLayoutpopup();
   document.getElementById("windowpopup").classList.toggle("show2");
-
+ 
 }
+
 
 let popupProj1 = [
   {
@@ -35,8 +40,17 @@ let popupProj1 = [
   }
 ]
 
+
+// const element = document.getElementById("windowpopup");
+  
+// function removeChild() {
+//   element.parentNode.removeChild(element);
+// }
+
 function displayLayoutpopup() {
-  let windowpopup = document.getElementById("windowpopup");
+
+  let windowpopup = document.getElementById("windowpopup")
+  
   let img = document.createElement('img');
   img.src = `${popupProj1[0].cross_icon}`;
   windowpopup.appendChild(img);
@@ -45,9 +59,6 @@ function displayLayoutpopup() {
   h2.textContent = `${popupProj1[0].title}`;
   windowpopup.appendChild(h2);
 
-
-
-  // windowpopup.appendChild(`<img src="${popupProj1[0].cross_icon}">`);
-  // windowpopup.appendChild(`<h2>${popupProj1[0].title}</h2>`);
-
-}
+  }
+  
+  
