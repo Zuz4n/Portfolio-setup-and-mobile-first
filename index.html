@@ -242,14 +242,24 @@
       <p class="pfinal">I'm always interested in hearing about new projects, so if you'd like to chat please get in
         touch.</p>
 
-      <form action="https://formspree.io/f/mdojpdgz" method="post">
+      <form id="signup" action="https://formspree.io/f/mdojpdgz" method="post">
         <label class="data">Full name</label>
 
         <input type="text" name="name" id="name" placeholder="Your name here" required maxlength="30">
         <img class="fillbar" src="./images/fillbar.svg" alt="fillbar">
+        
         <label class="data">Email adress</label>
-        <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
-        <img class="fillbar" src="./images/fillbar.svg" alt="fillbar">
+        <input 
+          type="email" 
+          name="email" 
+          id="email" 
+          placeholder="example@gmail.com" 
+          size="100"
+          title="Please, enter an email adress"
+          required/>
+          <small></small>
+
+          <img class="fillbar" src="./images/fillbar.svg" alt="fillbar">
         <textarea name="textarea" placeholder="Enter text here" maxlength="500" required></textarea>
         <input class="b4" type="submit" value="Get in touch">
 
