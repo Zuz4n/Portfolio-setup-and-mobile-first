@@ -38,7 +38,7 @@ function myFunction() {
     let emailValid = validateEmail(form.elements["email"], EMAIL_INVALID);
   
     if (emailValid) {
-      alert("Demo only. No form was posted.");
+      form.submit();
     }
   });
 
@@ -59,7 +59,7 @@ function myFunction() {
 
 function showMessage(input, message, type) {
 	// get the <small> element and set the message
-	const msg = input.parentNode.querySelector("small");
+	const msg =document.getElementById("small");
 	msg.innerText = message;
 	// update the class for the input
 	input.className = type ? "success" : "error";
