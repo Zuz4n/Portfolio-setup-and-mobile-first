@@ -27,6 +27,11 @@ overlay.addEventListener('click', () => {
   overlay.classList.remove("active");
 })  
 
+function functionClose (){
+  document.getElementById("windowpopup").style.display="none";
+
+}
+
 
 let popupProj1 = [
   {
@@ -42,18 +47,25 @@ let popupProj1 = [
   }
 ]
 
+
+// document.querySelectorAll(".b2").forEach(item) => {
+//   item.addEventListener("windowpopup", (e)) => {
+//     const windowpopup = document.getElementById("windowpopup")
+//     const h2=windowpopup.querySelector("#windowpopup-title");
+// }}
+
 function displayLayoutpopup() {
   document.getElementById("overlay").classList.toggle("active");
   let windowpopup = document.getElementById("windowpopup")
   
+ 
   let h2 = document.createElement('h2');
   h2.textContent = `${popupProj1[0].title}`;
   windowpopup.appendChild(h2);
 
   let img = document.createElement('img');
+  img.classList.add('containerdivpopup');
   img.src = `${popupProj1[0].cross_icon}`;
-  
-  
 
   let div = document.createElement('div');
   div.classList.add('containerdivpopup');
