@@ -13,6 +13,7 @@ function populateStorage() {
   localStorage.setItem('email', document.getElementById('email').value);
   localStorage.setItem('textarea', document.getElementById('textarea').value);
 
+  
   setStyles();
 }
 function setStyles() {
