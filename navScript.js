@@ -21,12 +21,19 @@ function functionPopup() {
   document.getElementById("windowpopup").classList.toggle("show2");
 }
 
+const overlay = document.getElementById('overlay')
+overlay.addEventListener('click', () => {
+  document.getElementById("windowpopup").classList.remove("show2");
+  overlay.classList.remove("active");
+})  
+
+
 let popupProj1 = [
   {
     cross_icon: "./images/Iconx.png",
     title: "Multi Post Stories",
     square_html: "html",
-    squate_boot: "bootstrap",
+    square_boot: "bootstrap",
     square_ruby: "ruby",
     image: "./images/numberten.png",
     textmulti: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,",
@@ -39,18 +46,59 @@ function displayLayoutpopup() {
   document.getElementById("overlay").classList.toggle("active");
   let windowpopup = document.getElementById("windowpopup")
   
-  let img = document.createElement('img');
-  img.src = `${popupProj1[0].cross_icon}`;
-  windowpopup.appendChild(img);
-
   let h2 = document.createElement('h2');
   h2.textContent = `${popupProj1[0].title}`;
   windowpopup.appendChild(h2);
 
+  let img = document.createElement('img');
+  img.src = `${popupProj1[0].cross_icon}`;
+  
+  
+
+  let div = document.createElement('div');
+  div.classList.add('containerdivpopup');
+  div.appendChild(h2);
+
+  let divimg = document.createElement('div');
+  div.appendChild(divimg);
+  divimg.appendChild(img);
+    
+  windowpopup.appendChild(div);
+
+
+  let htmlpop = document.createElement('button');
+  htmlpop .textContent = `${popupProj1[0].square_html}`;
+  htmlpop .classList.add('buttonpopup');
+  windowpopup.appendChild(htmlpop );
+
+  let bootpop = document.createElement('button');
+  bootpop.textContent = `${popupProj1[0].square_boot}`;
+  bootpop.classList.add('buttonpopup');
+  windowpopup.appendChild(bootpop);
+
+  let rubypop = document.createElement('button');
+  rubypop.textContent = `${popupProj1[0].square_ruby}`;
+  rubypop.classList.add('buttonpopup');
+  windowpopup.appendChild(rubypop);
+
+  let imgten = document.createElement('img');
+  imgten.src = `${popupProj1[0].image}`;
+  windowpopup.appendChild(imgten);
+
+  let paragraph = document.createElement('p');
+  paragraph.textContent = `${popupProj1[0].textmulti}`;
+  windowpopup.appendChild(paragraph);
+
+  let seelive = document.createElement('button');
+  seelive.textContent = `${popupProj1[0].btn_seelive}`;
+  seelive.classList.add('btnlive');
+  windowpopup.appendChild(seelive);
+
+  let seesource = document.createElement('button');
+  seesource.textContent = `${popupProj1[0].btn_seeSource}`;
+  seesource.classList.add('btnlive');
+  windowpopup.appendChild(seesource);
+
   }
   
-  const overlay = document.getElementById('overlay')
-  overlay.addEventListener('click', () => {
-    document.getElementById("windowpopup").classList.remove("show2");
-    overlay.classList.remove("active");
-  })
+ 
