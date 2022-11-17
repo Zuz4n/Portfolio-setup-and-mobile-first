@@ -1,6 +1,6 @@
-function myFunction() {
+
     document.getElementById("hideHamburguer").classList.toggle("show");
-  }
+  
   
   window.onclick = function(event) {
     if (!event.target.matches('.hamburguer')) {
@@ -30,7 +30,7 @@ function myFunction() {
 
   function validateEmail(input, invalidMsg) {
 
-    const emailRegex =/^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,3})$/;
+    const emailRegex =/^([a-z\d-]+)@([a-z\d-]+)\.([a-z]{2,3})$/;
     const email = input.value.trim();
     if (!emailRegex.test(email)) {
       return showError(input, invalidMsg);
