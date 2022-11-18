@@ -1,7 +1,7 @@
-var name = document.getElementById('name');
+var fullname = document.getElementById('name');
 var email = document.getElementById('email');
 var text = document.getElementById('textarea');
-var form = document.getElementById('signup');
+var form2 = document.getElementById('signup');
 
 const formData = {
 userName: '',
@@ -10,9 +10,9 @@ text: '',
 }
 
 function populateStorage() {
-  formData.userName=form.userName.value;
-  formData.userEmail=form.userEmail.value;
-  formData.text=form.text.value;
+  formData.userName=form2.userName.value;
+  formData.userEmail=form2.userEmail.value;
+  formData.text=form2.text.value;
   localStorage.setItem('formData', JSON.stringify(formData));
   
   setStyles();
@@ -31,9 +31,9 @@ function setStyles() {
     formData.userName=data.userName;
     formData.userEmail=data.userEmail;
     formData.text=data.text;
-    form.userName.value = formData.userName;
-    form.userEmail.value = formData.userEmail;
-    form.text.value = formData.text;
+    form2.userName.value = formData.userName;
+    form2.userEmail.value = formData.userEmail;
+    form2.text.value = formData.text;
   }
   }
  
